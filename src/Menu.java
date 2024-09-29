@@ -11,8 +11,8 @@ public class Menu {
             6) Peso colombiano ==> Dólar
             7) Salir
 
-            Elija una opción válida:
             *************************************
+            Elija una opción válida:
             """;
 
     public String getShow() {

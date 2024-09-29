@@ -17,7 +17,7 @@ public class Conversor {
         this.amount = amount;
     }
 
-    Gson gson = new GsonBuilder().create();
+    private Gson gson = new GsonBuilder().create();
 
     public void obtenerDivisa() {
         String stringPairConversion = pairConversion[0] + "/" + pairConversion[1];
@@ -31,9 +31,11 @@ public class Conversor {
             String json = response.body();
             ConversionRate conversionRate = gson.fromJson(json, ConversionRate.class);
             String valueConversionRate = conversionRate.conversion_rate();
+            String formatedAmount = String.format("%.3f", amount);
             badge = amount * Float.parseFloat(valueConversionRate);
-            String badgeMsg = "\nEl valor " + amount + " [" + pairConversion[0] + "]"
-                    + " corresponde al valor final de ==> " + badge + " [" + pairConversion[1] + "]";
+            String formatedBadge = String.format("%.3f", badge);
+            String badgeMsg = "El valor $" + formatedAmount + " [" + pairConversion[0] + "]"
+                    + " corresponde al valor final de ==> $" + formatedBadge + " [" + pairConversion[1] + "]";
             System.out.println(badgeMsg);
         } catch (Exception e) {
             System.out.println("Ocurrió un error inesperado.");
