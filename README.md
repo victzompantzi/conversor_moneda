@@ -1,6 +1,6 @@
 # Conversor de Monedas
 
-Alura Challenge - Conversor de Monedas - Oracle Next ONE G7
+Alura Challenge - Conversor de Monedas - Oracle Next ONE G7 2024
 
 <!-- Improved compatibility of back to top link: See: https://github.com/victzompantzi/encriptador/pull/73 -->
 
@@ -13,16 +13,11 @@ Alura Challenge - Conversor de Monedas - Oracle Next ONE G7
   <h3 align="center">Conversor de Monedas</h3>
 
   <p align="center">
-    Esta aplicación de consola consume la API de <a href="https://www.exchangerate-api.com">Exchange Rate</a> Conoce este interesante proyecto para conocer la equivalencia entre monedas del mundo.
-    <br />
-    <a href="https://github.com/victzompantzi/conversor_moneda/"><strong>Explore the docs >></strong></a>
+    Esta aplicación de consola consume la API de <a href="https://www.exchangerate-api.com">Exchange Rate</a> para devolverte la conversión entre distintas monedas. ¡Es muy fácil de utilizar!
     <br />
     <br />
-    <a href="https://github.com/victzompantzi/encriptador/">View Demo</a>
-    ·
-    <a href="https://github.com/victzompantzi/encriptador/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/victzompantzi/encriptador/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/victzompantzi/conversor_moneda/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/victzompantzi/conversor_moneda/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -40,7 +35,6 @@ Alura Challenge - Conversor de Monedas - Oracle Next ONE G7
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -55,15 +49,13 @@ Alura Challenge - Conversor de Monedas - Oracle Next ONE G7
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Este es el resultado del proyecto final para la primera etapa del Alura Challenges One - Encriptador
+[![Product Name Screen Shot][product-screenshot]](https://i.ibb.co/zZP5gdP/conversor-moneda.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-HTML, CSS and JavaScript.
+Java 21.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,15 +63,11 @@ HTML, CSS and JavaScript.
 
 ## Getting Started
 
-Solo entra a la página web y encripta el texto que desees. Una vez que lo hayas hecho, copia el texto y desencríptalo.
+El programa es sumamente intuitivo, solamente tienes que arrancar el programa y elegir la opción numérica que corresponda a la conversión de tu interés, del 1 al 6, y 7 para salir.
 
 ### Prerequisites
 
-Navegador web.
-
-### Installation
-
-Solo accede a la siguiente dirección: [Encriptador]()
+[Runtime de Java](https://www.java.com/en/download/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,11 +75,7 @@ Solo accede a la siguiente dirección: [Encriptador]()
 
 ## Usage
 
-1. Escribe el texto a encriptar.
-2. Click en el botón 'Encriptar'.
-3. Copia el resultado con el botón 'Copiar' .
-4. Pega el texto encriptado en el campo de texto y da clic en el botón 'Desencriptar'.
-5. ¡Utilízalo todas las veces que quieras!
+Ejecuta desde la terminal de tu IDE o editor de código la clase Principal dentro del directorio 'bin' con el comando 'java Principal'.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,9 +106,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Víctor Tzompantzi - [@avistamientos.espirituales](https://instagram.com/avistamientos.espirituales) - degradacionespontanea@gmail.com
-
-Project Link: [https://github.com/victzompantzi/encriptador/](https://github.com/victzompantzi/encriptador/)
+Víctor Tzompantzi - [@avistamientos.espirituales](https://instagram.com/avistamientos.espirituales) - vhtc8@hotmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
