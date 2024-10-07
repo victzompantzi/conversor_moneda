@@ -49,7 +49,7 @@ Alura Challenge - Conversor de Monedas - Oracle Next ONE G7 2024
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://i.ibb.co/zZP5gdP/conversor-moneda.png)
+![product-screenshot](https://i.ibb.co/zZP5gdP/conversor-moneda.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
